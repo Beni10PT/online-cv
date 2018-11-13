@@ -9,7 +9,8 @@
       
     @media print {
        a[href]:after {
-       content: none !important;
+            content: none !important;
+       }
     }
        
     img.avatar {
