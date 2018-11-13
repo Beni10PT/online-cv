@@ -6,7 +6,12 @@
     body {
        font-size: 12pt;
     }
-
+      
+    @media print {
+       a[href]:after {
+       content: none !important;
+    }
+       
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
@@ -19,7 +24,7 @@
     .sidebar-wrapper {
         position: static;
         float: right;
-        width: 40%;
+        width: 30%;
         -webkit-print-color-adjust: exact; 
     }
 
